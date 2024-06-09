@@ -69,7 +69,7 @@ Background - Based on their tweets, it appears our cybercriminal is indeed headi
 
 Instructions - In OSINT, there is oftentimes no "smoking gun" that points to a clear and definitive answer. Instead, an OSINT analyst must learn to synthesize multiple pieces of intelligence in order to make a conclusion of what is likely, unlikely, or possible. By leveraging all available data, an analyst can make more informed decisions and perhaps even minimize the size of data gaps. In order to answer the following questions, use the information collected from the attacker's Twitter account, as well as information obtained from previous parts of the investigation to track the attacker back to the place they call home.
 
-Solution - 
+Solution - We can see the image of sakura tree in twitter. In the background of thsi image we can see Washington Monument. Thus we need to search for airport nearest to Washington Monument which is Ronald Reagan Washington Airport. Next we are given an image of layover airport. When we search this image using Google lens we can easily see many news articles in English as well as in Japanese about Sakura lounge in Haneda Airport in Tokyo. On opening the Google maps we can easily locate Japan and the lake in th mainland that is Lake Inawashiro. We already know the home city of this person because in WiFi password list we have city passsword which mentions about Hirosaki city.
 
 Airport - DCA
 
