@@ -9,7 +9,7 @@ https://jupiter.challenges.picoctf.org/problem/60786/
 ## Solution 
 We are given a secure website. When we inspect the page we can find a very complicated line. We can easily make this complicated line code nice and simplified online.
 
-
+```javascript
 var _0x5a46 = ['f49bf}', '_again_e', 'this', 'Password\x20Verified', 'Incorrect\x20password', 'getElementById', 'value', 'substring', 'picoCTF{', 'not_this'];
 (function(_0x4bd822, _0x2bd6f7) {
     var _0xb4bdb3 = function(_0x1d68f6) {
@@ -47,7 +47,7 @@ function verify() {
         alert(_0x4b5b('0x9'));
     }
 }
-
+```
 
 We can understand what this simplified code is doing is taking the password and verifying if it matches with some special elements in the initial array. These special elements of array when joined gives us the flag.
 
